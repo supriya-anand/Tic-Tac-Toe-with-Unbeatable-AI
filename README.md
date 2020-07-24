@@ -3,8 +3,7 @@ Microsoft Engage 2020
 <h1 id="top" align="center"> <img src="img/micrologo.png" alt="Microsoft" width="19.5" height="19.5"> TIC-TAC-TOE</h1>
 <h3 align="center">Welcome to the world of AI !<br>
 Presenting to you the Tic-Tac-Toe Game with the Unbeatable AI.<br></h3>
-<h2 align="center">BEAT THE AI IF YOU CAN!</h2>
-<h3><a href="https://supriya-anand.github.io/Red_geeks/">Tic-Tac-Toe</a></h3>
+<h2 align="center">BEAT THE AI IF YOU CAN!<br><a href="https://supriya-anand.github.io/Red_geeks/">Tic-Tac-Toe</a></h2>
 
 
 
