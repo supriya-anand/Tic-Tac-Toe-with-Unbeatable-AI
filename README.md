@@ -4,8 +4,8 @@ Microsoft Engage 2020
 <h3 align="center">Welcome to the world of AI !<br>
 Presenting to you the Tic-Tac-Toe Game with the Unbeatable AI.<br></h3>
 <h2 align="center">BEAT THE AI IF YOU CAN!</h2>
+<h3><a href="https://supriya-anand.github.io/Red_geeks/">Tic-Tac-Toe</a></h3>
 
-<a href="https://supriya-anand.github.io/Red_geeks/">Tic-Tac-Toe</a>
 
 
 ---
@@ -18,7 +18,7 @@ This is the "Entertain the Crew" project under the program **Microsoft Engage 20
 
 ## Technical Achievements
 * Implementation of both **Human vs AI** and **Human vs Human** game types.
-* In the Human vs Human game type the AI offers **Suggestions to each player** for the upcoming steps.
+* In the Human vs Human game type the AI offers **Suggestions to each player** for the upcoming steps. **Suggestions are shown at the bottom of the page**.
 
 * For the Human Vs Computer game type a user can choose between two **Difficulty Levels** i.e. Easy and Difficult. Opting for the "Difficult level" begins the battle of **Human vs AI**.
 * **Score-board** is reflected for each player at the end of each game! 
