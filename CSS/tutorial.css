@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Fredericka the Great", cursive;
+  background: url("../image/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#header{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    margin: 5%;
+}
+
+.user-box{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.user-box h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(175, 175, 190);
+	font-weight: bold;
+	margin: 10px;
+}
+.user-box p{
+	font-weight: bold;
+	font-size: x-large;
+	color: rgb(182, 228, 236);
+}
+.user-box h1{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.services h1{
+	margin-bottom: 15px;
+}
+.services-box{
+background: linear-gradient(#000,#31273B);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 5%;
+  color :#ffffff;
+}
+.services-box .fa{
+	margin: 0 10px;
+	font-size: 20px;
+}
+.services-box span{
+	margin: 2px;
+	font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.services-box li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+	font-size: 15px;
+	margin-top: 15px;
+	color: rgb(255, 255, 255);
+}
+.services-box:hover{
+	background: linear-gradient(rgba(119, 10, 10, 0.514), rgba(110, 5, 5, 0.6));
+	color: rgb(50, 5, 9);
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: 1s;
+}
+
+
+/* Navigation bar */
+.navbar-brand img{
+	height: 35px;
+}
+.navbar{
+  background: linear-gradient(#000,#31273B);
+}
+/* nav-end */

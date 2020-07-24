@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<!-- Brand -->
+	<a class="navbar-brand" href="#"><img src="image/play.png"></a>
+	<a class="navbar-brand" href="#">Tic-Tac-Toe</a>
+  
+	<!-- Links -->
+	<ul class="navbar-nav">
+	  <li class="nav-item">
+		<a class="nav-link" href="html/tutorial.html">Tutorial</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="html/humanvshuman.html">Human vs Human</a>
+	  </li>
+  
+	  <!-- Dropdown -->
+	  <li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+		  Human vs Computer</a>
+		<div class="dropdown-menu">
+		  <a class="dropdown-item" href="html/easyMode.html">Easy</a>
+		  <a class="dropdown-item" href="index.html">Human vs AI</a>
+		</div>
+	  </li>
+	   <li class="nav-item">
+		<button id = "newgame"><a class="nav-link" href="#" onclick="difficult_playAgain()">NEW GAME</a></button>
+	  </li>
+	</ul>
+  </nav>  
+<!-- end nav bar -->
+
+	<div class='centerBanner'>
+	<span id='info'>Select!!!</span>
+	<div>
+		<button id='xBtn' class='button'>X</button>
+		<button id='oBtn' class='button'>O</button>
+	<div id="scoreboard">
+		<span id="playerone"></span>
+		<span id="playertwo"></span>
+	</div>
+		<button id='playAgain' class='hide button'>Play Again!!!!</button>
+
+	
+	</div>
+	</div>
+	<!-- </div> -->
+
+	<div class= 'ourgrid'>
+	<table id='container'>
+	<tr>
+	<td id='squareOne' class='grid left-grid top-grid'></td>
+	<td id='squareTwo' class='grid top-grid'></td>
+	<td id='squareThree' class='grid top-grid right-grid'></td>
+	</tr>
+	<tr>
+	<td id='squareFour' class='grid left-grid'></td>
+	<td id='squareFive' class='grid'></td>
+	<td id='squareSix' class='grid right-grid'></td>
+	</tr>
+	<tr>
+	<td id='squareSeven' class='grid left-grid bot-grid'></td>
+	<td id='squareEight' class='grid bot-grid'></td>
+	<td id='squareNine' class='grid bot-grid right-grid'></td>
+	</tr>
+	</table>
+    </div>
+
+  <div id="suggestion">
+    <span id="playerSuggestion"></span>
+  </div>
+
+	<script src="JS/scripts_difficult.js"></script>
+</body>
+</html>
