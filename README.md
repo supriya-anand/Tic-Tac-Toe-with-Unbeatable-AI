@@ -4,9 +4,6 @@ Presenting to you the Tic-Tac-Toe Game with the Unbeatable AI.<br></h3>
 <h2 align="center">BEAT THE AI IF YOU CAN!<br><a href="https://supriya-anand.github.io/Red_geeks/">Tic-Tac-Toe</a></h2>
 
 
-
----
-
 ## Project Description 
 
 This is the "Entertain the Crew" project under the program **Microsoft Engage 2020** by the team "Red_geeks". In this project we have created Tic-Tac-Toe with Unbeatable AI. Also, we have achieved the following Technical Advancements.
